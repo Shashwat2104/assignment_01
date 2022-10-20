@@ -1,13 +1,14 @@
-let str="madam";
+let str = "madam";
 
-let rev="";
+let rev = "";
 
-for(let i=str.length-1; i>=0; i--){
-    rev+=str[i];
+for (let i = str.length - 1; i >= 0; i--) {
+  rev += str[i];
 }
-if(str==rev){
-console.log("Yes");
+
+if (str == rev) {
+  console.log("Yes");
 }
-else{
-console.log("No");
+else {
+  console.log("No");
 }
